@@ -17,10 +17,10 @@ fieldfile = FieldFile(None, FakeField, 'dummy.txt')
 
     
 class BootstrapView(TemplateView):
-    template_name = 'PA_OPS/login.html'
+    template_name = 'account/login.html'
 
 class IndexView(TemplateView):
-    template_name = 'PA_OPS/index.html'
+    template_name = 'dashboard/index.html'
 
 class BlankView(TemplateView):
     template_name = 'PA_OPS/blank.html'

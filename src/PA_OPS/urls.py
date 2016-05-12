@@ -30,7 +30,7 @@ urlpatterns = [
     url(r'^login$', LoginView.as_view() , name='login'),
     url(r'^morris$', MorrisView.as_view(), name='morris' ),
     url(r'^notifications$', NotificationsView.as_view(), name='notifications' ),
-    url(r'^panels-well$', PanelsWellsView.as_view() , name='panels-wells'),
+    url(r'^panels-wells$', PanelsWellsView.as_view() , name='panels-wells'),
     url(r'^tables$', TablesView.as_view() , name='tables'),
     url(r'^typography$', TypographView.as_view() , name='typography'),
     
